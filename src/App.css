@@ -1,0 +1,11 @@
+.roomForm {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.room {
+    border: 1px solid grey;
+}
