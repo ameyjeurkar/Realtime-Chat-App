@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import './App.css';
 
-const socket = io.connect('http://localhost:4000');
+const socket = io.connect('https://chatroom-server.up.railway.app');
 
 function App() {
   const [username, setUsername] = useState("");
